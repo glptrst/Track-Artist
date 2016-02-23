@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- CSS -->
+	<link href="styles.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<!-- TEXT BOX AND BUTTON FOR SEARCH -->
+<div id="input">
+	<strong>Track the artist you want:</strong>
+	<input id="artist" type="text">
+	<input id="search" type="button" value="Go!">
+</div>
+
+<!-- MAP -->
+<div id="map"></div>
+
+<!-- SCRIPT TO FETCH EVENTS DATA --> 
+<script src="./events.js"></script>
+<!-- SCRIPT TO CREATE MAP --> 
+<script src="./map.js"></script>
+<script async defer
+      src="https://maps.googleapis.com/maps/api/js?v=3&key=*****YOURKEY******&callback=initMap"></script>
+</body>
+
+</html>
